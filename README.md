@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛹 Suburbia Skateboards - 3D Skateboard Customizer
 
-## Getting Started
+A cutting-edge web application that lets skateboarding enthusiasts customize their dream boards in real-time 3D. Built with Next.js 15 and Three.js for an immersive customization experience.
 
-First, run the development server:
+![Suburbia Skateboards](public/01.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Interactive 3D skateboard customizer with real-time updates
+- Smooth animations powered by GSAP
+- Dynamic content management through Prismic CMS
+- Responsive design with Tailwind CSS
+- Type-safe development with TypeScript
+- SEO-optimized landing page
+- High-performance and mobile-friendly
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework:** Next.js 15
+- **3D Rendering:** Three.js with React Three Fiber
+- **Styling:** Tailwind CSS
+- **Animations:** GSAP
+- **Language:** TypeScript
+- **Hosting:** Netlify
 
-## Learn More
+## 🎨 Customization Features
 
-To learn more about Next.js, take a look at the following resources:
+- Deck designs and patterns
+- Truck colors and materials
+- Wheel customization
+- Grip tape patterns
+- Real-time price updates
+- Save and share custom designs
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🔑 Key Implementation Details
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Server-side rendering for optimal performance
+- Dynamic routes for shareable custom designs
+- Responsive 3D viewer with touch controls
+- Optimized 3D models for web performance
+- Custom hooks for state management
+- Reusable animation components
 
-## Deploy on Vercel
+## 📱 Responsive Design
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The application is fully responsive and works seamlessly across:
+- Desktop browsers
+- Tablets
+- Mobile devices
+- Different screen orientations
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 🙏 Acknowledgments
+
+- Three.js community for 3D rendering resources
+- Prismic team for CMS support
+- Next.js team for the amazing framework
+- All contributors who helped improve this project
+
+## 📈 Future Roadmap
+
+- [ ] Add AR preview functionality
+- [ ] Implement social sharing features
+- [ ] Add more customization options
+- [ ] Create a mobile app version
+- [ ] Add user authentication
+- [ ] Implement order management system
+
+## ⚡ Performance
+
+The application has been optimized for:
+- Quick initial load times
+- Smooth 3D interactions
+- Efficient asset loading
+- Minimal bundle size
+- Optimal caching strategies
+
+---
+
+*Built with ❤️ by Asad Raza*
